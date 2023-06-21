@@ -17,9 +17,9 @@ public class MapTest2 {
 		ages.put("name3", 40);
 		
 		// afficher le contenu de la Map ages 
-		System.out.println(ages.toString());
+		System.out.println(" ages.toString() --> " + ages.toString());
 		
-		System.out.println(ages.get("Name1")); //Output: 20
+		System.out.println(" ages.get(\"Name1\") --> " + ages.get("Name1")); //Output: 20
 		
 		ages.remove("name3");
 		
@@ -29,7 +29,7 @@ public class MapTest2 {
 		ages.clear();
 		
 		System.out.println("  ");
-		System.out.println(" Contenu de la Map ages après remove() : " + ages.toString());
+		System.out.println(" Contenu de la Map ages après ages.clear() -->  " + ages.toString());
 		
 		ages.put("Name1", 20);
 		ages.put("Name5", 22);

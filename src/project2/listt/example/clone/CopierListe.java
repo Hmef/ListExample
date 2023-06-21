@@ -15,6 +15,24 @@ public class CopierListe {
         List<String> clone_list = new ArrayList<String>(maListe); 
   
         System.out.println(clone_list); 
+        
+        clone_list.add("NewA");
+        
+        System.out.println(clone_list); 
+        
+        //maListe.add("LLL");   // Error: UnsupportedOperationException
+        
+        //System.out.println(maListe); 
+        
+        //maListe.add(3, "LL");
+        
+        boolean test = clone_list.contains("A");
+        
+        System.out.println(" clone_list.contains(\"A\")  : " + test);
+        
+       System.out.println(" get(int Index) :  " + clone_list.get(2));
+       
+       System.out.println(" clone_list.hashCode() : " + clone_list.hashCode());
     } 
 
 }

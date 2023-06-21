@@ -13,6 +13,8 @@ public class CopierListStream {
 	        // Clonez la liste
 	       //List<String> clone_list = maListe.stream().collect(Collectors.toList()); 
 	       //System.out.println(clone_list); 
+	        
+	        System.out.println(maListe);
 	    } 
 
 }

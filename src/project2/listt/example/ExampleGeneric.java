@@ -13,6 +13,10 @@ public class ExampleGeneric {
 		map.put(101,"Vijay");
 		map.put(102,"Rahul");
 		
+		 System.out.println("");
+		
+		System.out.println("KEY Value ");
+		
 		//Elements can traverse in any order  
 		  for(Map.Entry m:map.entrySet()){  
 		   System.out.println(m.getKey()+" "+m.getValue());  
@@ -22,6 +26,12 @@ public class ExampleGeneric {
 		  System.out.println("  ");
 		  
 		  System.out.println(map);
+		  
+		  System.out.println("");
+		  
+		  System.out.println(" La valeur du  KEY 102 : " + map.get(102));
+		  
+		
 		  
 		  
 		  
