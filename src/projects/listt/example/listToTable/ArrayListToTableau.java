@@ -7,7 +7,8 @@ public class ArrayListToTableau {
 	
 	
 	public static void main(String[] args) {
-	    //Créer une Arraylist
+	   
+		//Créer une Arraylist
 	    List<String> languages = new ArrayList<String>();
 	    
 	    //ajouter des objets string à l'ArrayList
@@ -25,6 +26,7 @@ public class ArrayListToTableau {
 	    for(String i : arr){
 	      System.out.println(i);
 	    }
+	    
 	  }
 
 }
